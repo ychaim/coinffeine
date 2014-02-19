@@ -11,9 +11,10 @@ Let's say Bob is willing to buy 1 BTC at 100 € and Sam is willing to sell it t
 ### Trust scenario
 
 In a scenario in which Bob and Sam trust each other, they can just follow the following steps (steps 2 and 3 are interchangeable):
-Bob and Sam tell each other their bitcoin address and bank account respectively
-Bob transfers 100 € to to Sam’s account
-Sam signs a transaction of 1 BTC to the address of Bob
+
+1. Bob and Sam tell each other their bitcoin address and bank account respectively
+2. Bob transfers 100 € to to Sam’s account
+3. Sam signs a transaction of 1 BTC to the address of Bob
 
 This naïve approach doesn’t work in absence of trust: the first party that pays is at the mercy of the other one that could refuse to further collaborate.
 
