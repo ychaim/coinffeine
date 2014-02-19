@@ -1,3 +1,5 @@
+# Coinffeine
+
 Welcome to the Coinffeine wiki!
 
 ### What is Coinffeine?
