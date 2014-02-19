@@ -9,7 +9,7 @@ This document describes the Coinffeine exchange protocol. The document is struct
 
 ## Exchanging bitcoins and other currency
 
-The Coinffeine protocol is designed to allow two independent individuals to interchange bitcoins (or other alt-coins) and regular money automatically in a scenario of very low trust.
+The Coinffeine protocol is designed to allow two independent individuals to exchange bitcoins and regular money automatically in a scenario of very low trust.
 
 Let's say Bob is willing to buy 1 BTC at 100 € and Sam is willing to sell it to Bob at that exchange rate.
 
@@ -37,8 +37,8 @@ Coinffeine offers an peer-to-peer solution to enable currency exchange between b
 
 Coinffeine uses a [bitcoin contract](https://en.bitcoin.it/wiki/Contracts) known as _Micropayment Channel_ to create deposits which force users to continue to cooperate in the transaction if they want to recover the deposit money.
 
-Let's go back to Bob, who wants to buy 1 BTC at 100€, and Sam, who wants to sell 1 BTC at 100€. Bob and Sam find each other through the P2P network and decide they want to engage in a transaction to exchange Sam’s bitcoin for Bob’s 100€.
+Let's go back to Bob, who wants to buy 1 BTC at 100€, and Sam, who wants to sell 1 BTC at 100€. Bob and Sam find each other through the P2P network and decide they want to engage in a transaction to exchange Sam's bitcoin for Bob's 100€. In order to minimize risk they decide they want to perform the exchange 1€ and 0.01 BTC at a time
 
-They formalize this intent by creating a
+They formalize this intent by creating a deposit that expires after a certain amount of time (let's say 1 hour). That is, they are blocking some funds for the next hour, which is the time they will have to perform the exchange. Once the hour is up, they are free to redeem their deposits if the exchange did not happen.
 
 # STILL NEED TO ADD A BUNCH OF STUFF
