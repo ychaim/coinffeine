@@ -41,4 +41,6 @@ Let's go back to Bob, who wants to buy 1 BTC at 100€, and Sam, who wants to se
 
 They formalize this intent by creating a deposit that expires after a certain amount of time (let's say 1 hour). That is, they are blocking some funds for the next hour, which is the time they will have to perform the exchange. Once the hour is up, they are free to redeem their deposits if the exchange did not happen.
 
+Bob's deposit will be equal to 2 exchange steps. Since they decided the exchange was going to happen 0.01 BTC at a time, Bob commits 0.02 BTC in his deposit. Sam's deposit contain the full amount he wants to sell plus 1 exchange step as deposit, so he commits 1.01 BTC.
+
 # STILL NEED TO ADD A BUNCH OF STUFF
