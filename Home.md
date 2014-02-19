@@ -9,7 +9,7 @@ Coinffeine is an open source, peer-to-peer bitcoin exchange platform. With Coinf
 Coinffeine solves two hard, unrelated problems in order to enable the P2P exchange:
 
 - [[Distributed broker]] that pairs ASKs and BIDs
-- [[Zero trust exchange algorithm]] that provides a secure way of exchanging bitcoins with EUR/USD/JPY/etc with an internet stranger
+- Zero trust [[exchange algorithm | Exchange algorithm]] that provides a secure way of exchanging bitcoins with EUR/USD/JPY/etc with an internet stranger
 
 ### How can I contribute?
 
