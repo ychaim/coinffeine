@@ -1,5 +1,3 @@
-## Introduction
-
 This wiki page describes the details on how to contribute to Coinffeine. 
 
 ## Contribute with Bug Reports
