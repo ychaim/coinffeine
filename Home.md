@@ -17,4 +17,4 @@ Spread the word about the project by telling your friends! The exchange platform
 
 If you want to take a more active role, we also welcome any kind of contributions. We are happy to receive suggestions, bug reports, pull requests... anything that improves the project.
 
-The project is mainly written in [Scala](http://scala-lang.org/). We use [Akka](http://akka.io/) to handle concurrency and [BitcoinJ](https://code.google.com/p/bitcoinj/) to work with bitcoin. If you want to start developing, take a look at the [[Dev Getting Started]] page.
+The project is mainly written in [Scala](http://scala-lang.org/). We use [Akka](http://akka.io/) to handle concurrency and [BitcoinJ](https://code.google.com/p/bitcoinj/) to work with bitcoin. If you want to start developing, take a look at the [README file](/BitwiseLabs/coinffeine/blob/master/README.md).
