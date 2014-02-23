@@ -18,6 +18,6 @@ You may contribute to the project by coding new features, fixing bugs, improving
 7. When all the feedback to the pull request has been addressed, the reviewers will give their LGTM (look good to me). Then, your code will be merged into the `master` branch of the original Coinffeine repository. 
 8. Repeat from step 3). 
 
-### Copyright Assignment
+### Copyright Attribution
 
 Coinffeine is copyrighted by Coinffeine Developers. With each contribution, you agree to transfer the copyright of your code to them. 
