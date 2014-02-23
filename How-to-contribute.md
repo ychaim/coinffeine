@@ -4,7 +4,7 @@ This wiki page describes the details on how to contribute to Coinffeine.
 
 ## Contribute with Bug Reports
 
-As humans, we are not perfect. And our code is not perfect too. You may contribute to Coinffeine by submitting bug reports using [Github issue tracking](https://github.com/blog/831-issues-2-0-the-next-generation). Please make sure the description of the issue is as much detailed as possible. 
+As humans, we are not perfect. And our code is not perfect too. You may contribute to Coinffeine by submitting bug reports using [Github issue tracking](https://github.com/BitwiseLabs/coinffeine/issues/new). Please make sure the description of the issue is as much detailed as possible and use the appropriate tags to contextualize it. 
 
 ## Contribute with Code
 
@@ -23,4 +23,3 @@ You may contribute to the project by coding new features, fixing bugs, improving
 ### Copyright Assignment
 
 Coinffeine is copyrighted by Coinffeine Developers. With each contribution, you agree to transfer the copyright of your code to them. 
-
