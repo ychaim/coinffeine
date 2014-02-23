@@ -2,14 +2,14 @@ This wiki page describes the details on how to contribute to Coinffeine.
 
 ## Contribute with Bug Reports
 
-As humans, we are not perfect. And our code is not perfect too. You may contribute to Coinffeine by submitting bug reports using [Github issue tracking](https://github.com/BitwiseLabs/coinffeine/issues/new). Please make sure the description of the issue is as much detailed as possible and use the appropriate tags to contextualize it. 
+As humans, we are not perfect. And our code is not perfect too. You may contribute to Coinffeine by submitting bug reports using [Github issue tracking](https://github.com/BitwiseLabs/coinffeine/issues/new). Please make sure the description of the issue is as detailed as possible and use the appropriate tags to contextualize it. 
 
 ## Contribute with Code
 
 You may contribute to the project by coding new features, fixing bugs, improving the codebase, etc. We use Github pull requests to code collaboratively as follows.
 
 1. First, [fork](https://help.github.com/articles/fork-a-repo) the Coinffeine repository into your own account. 
-2. Then, you clone a working copy of the forked repo in your computer. It is highly recommendable to add original repository as a remote named `upstream` to have the latest updates from the repo. 
+2. Then, you clone a working copy of the forked repo in your computer. It is highly recommendable to add the original repository as a remote named `upstream` to have the latest updates from the repo. 
 3. Make sure your `master` branch contains the latest changes pulled from the upstream repository. It's highly recommented to create a new branch from the updated master for each change you want to make to the code. 
 4. Now make changes to the code and commit them. Use a [well formed commit message](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html) to document the change. 
 4. Push your changes to origin (i.e., the repository you forked on step 1)). 
