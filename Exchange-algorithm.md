@@ -372,20 +372,20 @@ Prior to committing the funds, both Bob and Sam have the same set of moves:
 Once the funds have been committed, the set of moves is different for Bob and
 Sam. Sam can do the following:
 
-- Sign: given a transaction proposal by Bob, Sam can decide to sign it and
+- `Sign`: given a transaction proposal by Bob, Sam can decide to sign it and
   return the signature.
-- Wait_Sam: Sam can decide to stop playing and wait until the deposits expire, in
+- `Wait_Sam`: Sam can decide to stop playing and wait until the deposits expire, in
   which case he will use the refund transaction if the funds haven't been used
   yet.
 
 Bob has the following set of moves:
 
-- Pay: he can transfer Sam 1 exchange step of fiat currency.
-- Offer: he can propose another transaction to Sam.
-- PayAndOffer: a convinience move that combines the Pay and Offer move.
-- Wait_Bob: Bob can decide to stop playing and redeem the deposit after the
+- `Pay`: he can transfer Sam 1 exchange step of fiat currency.
+- `Offer`: he can propose another transaction to Sam.
+- `PayAndOffer`: a convinience move that combines the Pay and Offer move.
+- `Wait_Bob`: Bob can decide to stop playing and redeem the deposit after the
   timelock has expired.
-- Publish: Bob can chose to publish Sam's last signed offer. 
+- `Publish`: Bob can chose to publish Sam's last signed offer. 
 
 Please note that once Sam has decided to wait, Bob can only play Pay, Wait_Bob
 and Publish.
