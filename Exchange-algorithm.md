@@ -77,7 +77,7 @@ Sam's deposit amounts to 1 exchange step. He also needs to commit the exchange
 amount he wants to tranfer to Sam, so he commits 1.01 BTC.
 
 
-# Insert deposit picture
+![Coinffeine deposits](deposits.png)
 
 Once the deposits have been set up, which proves that both parties are serious
 about the exchange since they have committed funds, the actual exchange beings.
@@ -86,7 +86,7 @@ uses the money Sam allocated for the exchange and sets the deposits as mining
 fees. Sam's allocated funds are split, giving Bob 1 exchange step (0.01 BTC)
 and the rest (0.99 BTC) to Sam. Sam signs the proposal and returns it to Bob.
 
-# Insert proposal picture
+![First proposal](proposal1.png)
 
 At this point in time, Bob can decide to publish the proposal. This would
 use the deposit's funds and would therefore prevent either of them from getting
@@ -106,19 +106,18 @@ transferred. Once this has happened, Bob provides a final proposal to Sam, in
 which each of them returns their deposits and Bob receives the bitcoins he
 already paid for (so 1.02 BTC to Bob and 0.01 BTC to Sam)
 
-# Insert final proposal picture
+![First proposal](final_proposal.png)
 
 Once Sam signs this final proposal and returns it to Bob, he can broadcast it
 to the miners so the transaction gets confirmed.
 
 ## Transaction definitions
 
-- TX0.1: Sam creates and does not share:
+- `TX0.1`: Sam creates and does not share:
 
 ```
 Inputs: any transaction as long as Sam can sign the SigScript and the amount
         is greater of equal to the exchange amount (E) + Sam's deposit (SD).
-
 Outputs:
 - 0:
   - Amount: E + SD
@@ -128,7 +127,7 @@ Outputs:
   - Script: to Sam's change address
 ```
 
-- TX0.2: Sam creates and shares with Bob:
+- `TX0.2`: Sam creates and shares with Bob:
 
 ```
 Inputs:
@@ -144,7 +143,7 @@ Outputs:
 Timelock: T
 ```
 
-- TX0.3: Bob signs TX0.2 and delivers the signature to Sam, who adds his own
+- `TX0.3`: Bob signs `TX0.2` and delivers the signature to Sam, who adds his own
   signature:
 
 ```
@@ -161,7 +160,7 @@ Outputs:
 Timelock: T
 ```
 
-- TX0.4: Bob creates and does not share:
+- `TX0.4`: Bob creates and does not share:
 
 ```
 Inputs: any transaction as long as Bob can sign the SigScript and the amount
@@ -176,7 +175,7 @@ Outputs:
   - Script: to Bob's change address
 ```
 
-- TX0.5: Bob creates and shares with Sam:
+- `TX0.5`: Bob creates and shares with Sam:
 
 ```
 Inputs:
@@ -192,7 +191,7 @@ Outputs:
 Timelock: T
 ```
 
-- TX0.6: Sam signs TX0.5 and delivers the signature to Bob, who adds his own
+- `TX0.6`: Sam signs `TX0.5` and delivers the signature to Bob, who adds his own
   signature:
 
 ```
@@ -209,9 +208,9 @@ Outputs:
 Timelock: T
 ```
 
-- Sam broadcasts TX0.1 and Bob broadcasts TX0.4. They wait until they have been
+- Sam broadcasts `TX0.1` and Bob broadcasts `TX0.4`. They wait until they have been
   confirmed.
-- TX1.1: Bob creates the following transaction and sends it to Sam:
+- `TX1.1`: Bob creates the following transaction and sends it to Sam:
 
 ```
 Inputs:
@@ -232,7 +231,7 @@ Outputs:
   - Script: to Sam's address
 ```
 
-- TX1.2: Sam signs TX1.1, delivers the signature to Bob and Bob completes the
+- `TX1.2`: Sam signs `TX1.1`, delivers the signature to Bob and Bob completes the
   transaction with his own signature:
 
 ```
@@ -254,7 +253,7 @@ Outputs:
   - Script: to Sam's address
 ```
 
-- TXi.0: In general, for iteration "i" (1 <= i <= N), Bob creates the following
+- `TXi.0`: In general, for iteration `i` (`1 <= i <= N`), Bob creates the following
   transaction and sends it to Sam:
 
 ```
@@ -276,7 +275,7 @@ Outputs:
   - Script: to Sam's address
 ```
 
-- TXi.1: If Sam has received (i-1) payments from Bob, he signs TXi.0 and returns
+- `TXi.1`: If Sam has received `i - 1` payments from Bob, he signs `TXi.0` and returns
   the signature to Bob and Bob completes the transaction with his own signature:
 
 ```
@@ -298,7 +297,7 @@ Outputs:
   - Script: to Sam's address
 ```
 
-- TX(N+1).0: Bob creates the following transaction and sends it to Sam:
+- `TX(N+1).0`: Bob creates the following transaction and sends it to Sam:
 
 ```
 Inputs:
@@ -319,7 +318,7 @@ Outputs:
   - Script: to Sam's address
 ```
 
-- TX(N+1).1: If Sam has received N payments, he signs TX(N+1).0 and returns the
+- `TX(N+1).1`: If Sam has received `N` payments, he signs `TX(N+1).0` and returns the
   signature to Bob, where he completes the transaction with his own signature:
 
 ```
@@ -341,7 +340,7 @@ Outputs:
   - Script: to Sam's address
 ```
 
-- Bob broadcasts TX(N+1).1 and the exchange is complete
+- Bob broadcasts `TX(N+1).1` and the exchange is complete
 
 ## Game theory properties
 
