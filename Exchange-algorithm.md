@@ -399,23 +399,21 @@ and Publish.
 #### Restricted buyer
 
 If Bob is using the standard client, the Sam's dominant strategy is to follow
-through with the transaction:
+through with the transaction. You can take a look at the game analysis in
+[this PDF](standard_bob.pdf)
 
 _Note_: Yellow states are the "happy path" for the exchange completion, green
 arrows are the dominant strategies and each state is represented as: `Player
 [Bob's payoff, Sam's payoff]`
-
-[![Standard buyer game](standard_bob.png|width=800px)](standard_bob.png)
 
 #### Restricted seller
 
 If Sam is using the standard client, the Bob's dominant strategy is to follow
-through with the transaction:
+through with the transaction. You can take a look at the game analysis in
+[this PDF](standard_sam.pdf)
 
 _Note_: Yellow states are the "happy path" for the exchange completion, green
 arrows are the dominant strategies and each state is represented as: `Player
 [Bob's payoff, Sam's payoff]`
-
-[[[standard_sam.png|width=800px]](standard_sam.png)
 
 ## Threats and mitigations
