@@ -416,6 +416,6 @@ _Note_: Yellow states are the "happy path" for the exchange completion, green
 arrows are the dominant strategies and each state is represented as: `Player
 [Bob's payoff, Sam's payoff]`
 
-[![Standard seller game](standard_sam.png|width=800px)](standard_sam.png)
+[[[standard_sam.png|width=800px]](standard_sam.png)
 
 ## Threats and mitigations
