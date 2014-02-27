@@ -405,7 +405,7 @@ _Note_: Yellow states are the "happy path" for the exchange completion, green
 arrows are the dominant strategies and each state is represented as: `Player
 [Bob's payoff, Sam's payoff]`
 
-# Add Standard Bob diagram
+[![Standard buyer game](standard_bob.png =800px)](standard_bob.png)
 
 #### Restricted seller
 
@@ -416,6 +416,6 @@ _Note_: Yellow states are the "happy path" for the exchange completion, green
 arrows are the dominant strategies and each state is represented as: `Player
 [Bob's payoff, Sam's payoff]`
 
-# Add Standard Sam diagram
+[![Standard seller game](standard_sam.png =800px)](standard_sam.png)
 
 ## Threats and mitigations
