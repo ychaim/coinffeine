@@ -12,6 +12,8 @@ structured in several sections:
   the protocol at the bitcoin transaction level.
 - [Game theory properties](#wiki-game-theory-properties): analysis of the
   protocol as a game played by rational actors
+- [Threats and mitigations](#wiki-threats-and-mitigations): analysis of the
+  different threats and how they are mitigated by the algorithm
 
 ## Exchanging bitcoins and other currency
 
@@ -390,4 +392,30 @@ Bob has the following set of moves:
 Please note that once Sam has decided to wait, Bob can only play Pay, Wait_Bob
 and Publish.
 
+#### Unrestricted games
+
 # TODO
+
+#### Restricted buyer
+
+If Bob is using the standard client, the Sam's dominant strategy is to follow
+through with the transaction:
+
+_Note_: Yellow states are the "happy path" for the exchange completion, green
+arrows are the dominant strategies and each state is represented as: `Player
+[Bob's payoff, Sam's payoff]`
+
+# Add Standard Bob diagram
+
+#### Restricted seller
+
+If Sam is using the standard client, the Bob's dominant strategy is to follow
+through with the transaction:
+
+_Note_: Yellow states are the "happy path" for the exchange completion, green
+arrows are the dominant strategies and each state is represented as: `Player
+[Bob's payoff, Sam's payoff]`
+
+# Add Standard Sam diagram
+
+## Threats and mitigations
