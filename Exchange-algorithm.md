@@ -394,13 +394,20 @@ and Publish.
 
 #### Unrestricted games
 
-# TODO
+If both players have full control over their actions and they are able to play
+any applicable move at each turn, then the dominant strategy for both players
+is to avoid commiting the deposit money.
+
+**TODO**: Explain why they won't enter the deposit and who can con who. Add
+game graph with resolution for all states
 
 #### Restricted buyer
 
 If Bob is using the standard client, the Sam's dominant strategy is to follow
 through with the transaction. You can take a look at the game analysis in
 [this PDF](standard_bob.pdf)
+
+**TODO**: Review PDF after slight changes in exchange algo
 
 _Note_: Yellow states are the "happy path" for the exchange completion, green
 arrows are the dominant strategies and each state is represented as: `Player
@@ -412,8 +419,17 @@ If Sam is using the standard client, the Bob's dominant strategy is to follow
 through with the transaction. You can take a look at the game analysis in
 [this PDF](standard_sam.pdf)
 
+**TODO**: Review PDF after slight changes in exchange algo
+
 _Note_: Yellow states are the "happy path" for the exchange completion, green
 arrows are the dominant strategies and each state is represented as: `Player
 [Bob's payoff, Sam's payoff]`
 
 ## Threats and mitigations
+
+**TODO**: Add explanation about why each of these doesn't impact the algorithm
+
+- Blackmail attacks
+- Denial of Service attacks
+- Fiat transactions fingerprinting to block Coinffeine
+- Irrational players (NSA or someone who looses connection mid-transaction)
