@@ -361,6 +361,8 @@ When modeled as a combinatorial game, we have the following properties:
     other currency more than the currency they are holding (that is, they
     percieve the exchange at the proposed exchange rate as benefitial for them).
 
+You can check and play with the code that we have used to model the different scenarios on the [contract-analysis](https://github.com/Coinffeine/contract-analysis) repository.
+
 ### Technical details and proof 
 
 We can model the exchange as a combinatorial game (that is, a sequential game
